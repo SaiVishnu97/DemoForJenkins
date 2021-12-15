@@ -11,7 +11,14 @@ pipeline {
             steps {
                 echo 'pipeline World'}
             }
-            
+            }
+            stage('DevJob')
+            {
+            steps
+            {
+            build 'DevJob'
+            }
+            }
         }
     }
 
