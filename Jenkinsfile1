@@ -10,7 +10,7 @@ pipeline {
             stage('Pipeline') {
             steps {
                 echo 'pipeline World'}
-            }
+            
             }
             stage('DevJob')
             {
